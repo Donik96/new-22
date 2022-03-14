@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+ 
+
+
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.container{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-around;
+    
+    
+}
+
+
+
+header .container img{
+    width: 118px;
+    height: 40px;
+    margin-left: -30px;
+    cursor: pointer;
+    margin-left: 50px;
+   
+}
+
+header .container ul {
+    display: flex;
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 400px;
+   
+   
+}
+
+header .container ul li a{
+   text-decoration: none;
+   margin: 10px;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   cursor: pointer;
+   margin-left: 20px;
+}
+
+header .container ul li{
+    margin-left: 10px;
+}
+
+.border-right{
+    border-right: 1px solid #555;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: -15px;
+    margin-left: 100px;
+
+}
+
+header .container .box-1 .icon{
+    color: black;
+    display: block;
+    margin-left: -300px;
+}
+
+header .container .box-1 .icon i{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    
+    
+}
+
+header .container .box-1 .icon i:hover{
+    color: greenyellow;
+}
+
+
+header .container .box ul li a:hover{
+   color: greenyellow;
+}
+
+section{
+    width: 1200px;
+    
+}
+
+
+section .container{
+    width: 1900px;
+    height: 700px;
+    background-image: url('../img/10992497.jpg');
+    background-size: cover;
+    background-position: center;
+
+   
+
+    
+}
+
+section .container .box{
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    border-top: 6px solid green;
+    background-color: #000;
+    opacity: 0.8;
+    color: white;
+    margin-top: 200px;
+    position: relative;
+    animation-name: donik;
+    animation-duration: 1s;
+    
+}
+
+section .container .box h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+section .container .box p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+
+section .container .box button{
+     width: 200px;
+     height: 50px;
+     font-size: 20px;
+     font-weight: bold;
+     background-color: unset;
+     color: white;
+     border: 3px green solid;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-left: 200px;
+
+}
+
+section .container .box button:hover{
+    background-color: green;
+    transition: 1s;
+    padding: 8px;
+    font-family: cursive;
+    border-radius: 25px;
+    
+}
+
+@keyframes donik{
+     from{
+         top: 200px;
+     }
+
+     to{
+         top: 0px;
+     }
+}
+
+
+.section-1{
+    color: #777;
+    width: 1200px;
+    margin-left: 300px;
+}
+
+.biz h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.biz .line{
+    margin-top: -3px;
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+
+.section-1 .container{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+   
+}
+.section-1 .container .box{
+      width: 50%;
+     
+}
+
+.section-1 .container .box{
+    position: relative;
+    animation-name: donii;
+    animation-duration:  1s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes donii{
+   from{
+       left:-300px;
+   }
+
+   to{
+       left: 0px;
+   }
+}
+
+.section-1 .container .box h1{
+    font-size: 45px;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 70px;
+    
+    
+}
+
+
+
+.section-1 .container .box-1{
+    width: 500px;
+   
+
+}
+
+.section-1 .container .box-1{
+    position: relative;
+    animation-name: doniii;
+    animation-duration:  1s;
+    animation-iteration-count: 1;
+}
+@keyframes doniii{
+    from{
+        right: -300px;
+    }
+    to{
+        right: 0px;
+    }
+}
+
+.section-1 .biz{
+    position: relative;
+    animation-name: biz;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes biz{
+    from{
+        top: 100px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+
+.section-1 .container .box-1 p{
+    width: 500px;
+    color: #777;
+}
+
+
+
+
+.ishsiz{
+    width: 60%;
+    
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+    
+    
+
+}
+
+.section-1 .container .box-1 i{
+    color: green;
+    position: relative;
+    top: 30px;
+    
+}
+
+.p1{
+    margin-bottom: 50px;
+}
+
+.section-2{
+    width: 1900px;
+    height: 1200px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+
+
+
+.section-2 .containern .container-n .box{
+    width: 25%;
+    height: 450px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding-top: 80px;
+    padding: 40px;
+   
+
+}
+
+.section-2 .containern .container-n .box :hover{
+    box-shadow: slategrey;
+}
+
+.section-2 .containern .container-n .box p{
+    font-family: sans-serif;
+}
+
+.section-2 .containern .container-n .box i{
+    font-size: 40px;
+    padding: 45px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+
+.container-n{
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+    
+    
+
+}
+
+.containern{
+   flex-direction: column;
+  
+}
+.section-2 .head-n h2{
+    padding: 50px;
+}
+.section-2 .head-n .line{
+    color: green;
+    font-size: 40px;
+}
+
+.section-2 .head-n{
+    position: relative;
+    animation-name: head-n;
+    animation-iteration-count: 1;
+    animation-duration: 1s; 
+}
+
+@keyframes head-n{
+    from{
+        top: 200px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+
+
+/* .section-2 .containern .container-n .box i:hover{
+    background-color: blue;
+    color: white;
+} */
+.section-2 .containern .container-n .box .fa-store{
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.section-2 .containern .container-n .box .fa-store:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* .section-2 .containern .container-n .box i .fas, .fa-plug:hover{
+   background-color:tomato;
+   color: white;
+} */
+.section-2 .containern .container-n .box .fa-plug{
+    color: tomato;
+    background-color: whitesmoke;
+}
+
+.section-2 .containern .container-n .box .fa-plug:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.section-2 .containern .container-n .box .fa-paint-roller{
+    color: brown;
+    background-color: whitesmoke;
+}
+
+.section-2 .containern .container-n .box .fa-paint-roller:hover{
+    color: white;
+    background-color: brown;
+}
+
+.section-2 .containern .container-n .box .fa-seedling{
+    color: yellow;
+    background-color: whitesmoke;
+}
+
+.section-2 .containern .container-n .box .fa-seedling:hover{
+     color: white;
+     background-color: yellow;
+}
+
+.section-2 .containern .container-n .box .fa-desktop{
+    color: chocolate;
+    background-color: whitesmoke;
+}
+
+.section-2 .containern .container-n .box .fa-desktop:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+.section-2 .containern .container-n .box .fa-archway{
+    color: aqua;
+    background-color: whitesmoke;
+}
+
+.section-2 .containern .container-n .box .fa-archway:hover{
+     color: white;
+     background-color: aqua;
+}
+
+
+
